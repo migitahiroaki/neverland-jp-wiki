@@ -12,6 +12,10 @@
   "dependencies": {
     "@astrojs/starlight": "^0.38.3",
     "astro": "^6.0.1",
-    "sharp": "^0.34.2"
+    "sharp": "^0.34.2",
+    "starlight-heading-badges": "^0.7.0",
+    "starlight-links-validator": "^0.23.0",
+    "starlight-obsidian": "^0.12.1",
+    "starlight-tags": "^1.0.1"
   }
 }
