@@ -39,7 +39,8 @@ export default defineConfig({
         starlightTags({ configPath: "./config/tags.yml" }),
         // Generate the Obsidian vault pages.
         starlightObsidian({
-          vault: "../path/to/obsidian/vault",
+          vault: "./src/content/docs/vault",
+          ignore: ["templates"],
         }),
       ],
     }),
