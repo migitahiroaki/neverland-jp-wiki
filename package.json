@@ -17,5 +17,9 @@
     "starlight-links-validator": "^0.23.0",
     "starlight-obsidian": "^0.12.1",
     "starlight-tags": "^1.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
   }
 }
