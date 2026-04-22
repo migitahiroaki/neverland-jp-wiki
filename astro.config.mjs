@@ -17,19 +17,26 @@ export default defineConfig({
           href: "https://github.com/withastro/starlight",
         },
       ],
+      defaultLocale: "ja",
+      // locales: {
+      //   ja: { label: "日本語", lang: "ja" },
+      // },
       sidebar: [
         {
-          label: "Guides",
+          label: "初心者向けガイド",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "Neverlandとは？", link: "/guides/what-is-neverland" },
+            { label: "レンディングで稼ぐ", link: "/guides/lend-borrow" },
           ],
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "基礎知識",
+          items: [],
         },
-        // Add the generated sidebar group to the sidebar.
+        {
+          label: "戦略",
+          items: [],
+        },
       ],
       plugins: [
         starlightLinksValidator(),

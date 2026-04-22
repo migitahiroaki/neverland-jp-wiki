@@ -1,7 +1,10 @@
 tags:
-  basics:
-    label: "basics"
-    description: "プロトコルの基礎知識"
+  beginners:
+    label:
+      en: "beginners"
+      ja: "初心者向け"
+    description:
+      ja: "プロトコルの基礎知識や初心者向けチュートリアル"
     color: "#10b981"
     icon: "🔰"
 

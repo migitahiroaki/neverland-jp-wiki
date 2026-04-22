@@ -1,0 +1,23 @@
+{
+  "starlightTags.totalTags": "タグ総数",
+  "starlightTags.pagesTagged": "タグ付きページ",
+  "starlightTags.tagsApplied": "適用されたタグ",
+  "starlightTags.tagCloud": "タグクラウド",
+  "starlightTags.alphabeticalIndex": "アルファベット順索引",
+  "starlightTags.allTags": "すべてのタグ",
+  "starlightTags.page": "ページ",
+  "starlightTags.pages": "ページ",
+  "starlightTags.pageTags": "タグ：",
+  "starlightTags.taggedPrefix": "タグ付き：",
+  "starlightTags.relatedTags": "関連タグ",
+  "starlightTags.pagesWithTag": "このタグのページ",
+  "starlightTags.related": "関連",
+  "starlightTags.path": "パス：",
+  "starlightTags.pagination.label": "ページネーション",
+  "starlightTags.pagination.page": "ページ",
+  "starlightTags.pagination.of": "/",
+  "starlightTags.pagination.previous": "前のページ",
+  "starlightTags.pagination.next": "次のページ",
+  "starlightTags.pagination.item": "タグ付きアイテム",
+  "starlightTags.pagination.items": "タグ付きアイテム"
+}
