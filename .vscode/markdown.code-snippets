@@ -1,6 +1,6 @@
 {
   "markdownHeader": {
     "prefix": "meta",
-    "body": ["---", "title: ", "description: ", "---", "", "$0"],
+    "body": ["---", "title: ", "description: ", "tags: ", "---", "", "$0"],
   },
 }

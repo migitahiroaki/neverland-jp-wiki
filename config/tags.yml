@@ -1,4 +1,10 @@
 tags:
+  basics:
+    label: "basics"
+    description: "プロトコルの基礎知識"
+    color: "#10b981"
+    icon: "🔰"
+
   getting-started:
     label: "Getting Started"
     description: "Essential first steps"
