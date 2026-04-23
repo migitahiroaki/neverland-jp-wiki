@@ -5,8 +5,6 @@ tags:
   - beginners
 ---
 
-# Neverlandとは？
-
 NeverlandはMonadチェーン上に構築された、次世代のレンディングプロトコルです。主要なレンディング機能はフォーク元である、AaveV3をベースとしています。
 
 ## 特徴

@@ -1,0 +1,4 @@
+mjx-container[display="inline"] {
+  margin: 0 0.15em; /* 前後に少し余白を追加 */
+  font-size: 1.05em; /* 少しだけ大きくする */
+}

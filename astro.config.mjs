@@ -4,9 +4,15 @@ import starlight from "@astrojs/starlight";
 import starlightLinksValidator from "starlight-links-validator";
 import starlightHeadingBadges from "starlight-heading-badges";
 import starlightTags from "starlight-tags";
+import remarkMath from "remark-math";
+import rehypeMathJax from "rehype-mathjax";
 
 // https://astro.build/config
 export default defineConfig({
+  markdown: {
+    remarkPlugins: [remarkMath],
+    rehypePlugins: [rehypeMathJax],
+  },
   integrations: [
     starlight({
       title: "My Docs",
@@ -27,6 +33,7 @@ export default defineConfig({
           items: [
             { label: "Neverlandとは？", link: "/guides/what-is-neverland" },
             { label: "レンディングで稼ぐ", link: "/guides/lend-borrow" },
+            { label: "veDUSTロックで稼ぐ", link: "/guides/vedust-lock" },
           ],
         },
         {
