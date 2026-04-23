@@ -15,12 +15,12 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Neverland 非公式日本語 wiki",
       social: [
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/withastro/starlight",
+          href: "https://github.com/migitahiroaki/neverland-jp-wiki",
         },
       ],
       defaultLocale: "ja",
@@ -34,6 +34,10 @@ export default defineConfig({
             { label: "Neverlandとは？", link: "/guides/what-is-neverland" },
             { label: "レンディングで稼ぐ", link: "/guides/lend-borrow" },
             { label: "veDUSTロックで稼ぐ", link: "/guides/vedust-lock" },
+            {
+              label: "流動性提供者になって稼ぐ",
+              link: "/guides/liquidity-provider",
+            },
           ],
         },
         {
