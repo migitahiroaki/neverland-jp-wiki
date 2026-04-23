@@ -1,0 +1,20 @@
+---
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default {...Astro.props} />
+
+<footer class="copyright-footer">
+  <p>&copy; 2024-2026 Neverland JP Wiki. All rights reserved.</p>
+</footer>
+
+<style>
+  .copyright-footer {
+    border-top: 1px solid var(--sl-color-gray-5);
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--sl-color-gray-2);
+    background-color: var(--sl-color-gray-6);
+  }
+</style>

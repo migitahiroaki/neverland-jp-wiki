@@ -23,6 +23,9 @@ export default defineConfig({
           href: "https://github.com/migitahiroaki/neverland-jp-wiki",
         },
       ],
+      components: {
+        Footer: "./src/components/starlight/Footer.astro",
+      },
       defaultLocale: "ja",
       // locales: {
       //   ja: { label: "日本語", lang: "ja" },
